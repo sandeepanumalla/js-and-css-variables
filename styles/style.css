@@ -18,7 +18,8 @@ label {
     margin-left: 1rem;
     color: white;
     font-size: x-large;
-    font-family: fira sans
+    font-family: fira sans;
+    margin-right: 1rem;
 }
 
 .container {
