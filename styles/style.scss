@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+$padding:10px;
+$blur:10px;
+$color:rgb(248,
+248,
+100);
+body {
+    background-color: rgb(96, 164, 185);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    label {
+        margin-left: 1rem;
+        color: white;
+        font-size: x-large;
+        font-family: fira sans
+    }
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding-left: $padding;
+    // padding-top: $padding;
+    background: $color;
+    width: 30rem;
+}
+
+.image {
+    width: 90%;
+    filter: blur($blur);
+    height: 90%;
+    margin: $padding 0 0 $padding;
+    background: url("bruce-mars-AndE50aaHn4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
